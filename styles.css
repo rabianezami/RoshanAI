@@ -1,0 +1,87 @@
+.glass-navbar {
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(255,255, 255, 0.2);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    z-index: 1030;
+}
+
+body {
+    padding-top: 70px;
+}
+
+.navbar-nav .nav-link{
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover, 
+.glass-navbar .nav-link.active {
+    color: #4A90E2;
+    font-weight: 500;
+}
+
+.navbar-toggler {
+    border: none;
+    filter: drop-shadow(0 0 1px rgba(0,0,0,0.2));
+}
+
+ .d-flex a.text-secondary:hover i {
+    color: #4A90E2;
+ }
+
+ #hero {
+    background: linear-gradient(rgba(255,255,255,0.8), rgb(255,255,255,0.8)), url('imges/RoshanAcademic_EOS.jpg') center/cover no-repeat;
+     min-height: calc(100vh - 70px);
+ }
+
+ #hero h1,
+ #hero p {
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+ }
+
+ .card i {
+    transition: transform 0.3s ease;
+ }
+
+ .card:hover i {
+    transform: scale(1.2);
+ }
+
+ #footer {
+  background-color: #5EABD6;
+ }
+
+ #footer i {
+    transition: transform 0.3s ease, color 0.3s ease;
+    cursor: pointer;
+  }
+
+#footer i {
+  transition: all 0.3s ease; 
+}
+
+.bi-twitter:hover {
+  color: #1B56FD!important;
+  transform: scale(1.2);
+}
+
+.bi-instagram:hover {
+  color: #E4405F !important;
+  transform: scale(1.2);
+}
+
+.bi-telegram:hover {
+  color: #0088cc !important;
+  transform: scale(1.2);
+}
+
+.bi-whatsapp:hover {
+  color: #06923E !important;
+  transform: scale(1.2);
+}
+
+.bi-telephone:hover {
+  color: #555879 !important;
+  transform: scale(1.2);
+}
